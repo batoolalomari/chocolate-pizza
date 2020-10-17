@@ -1,12 +1,28 @@
+/* body{
+    margin-left: 5pc;
+    margin-right: 5pc;
+} */
 .inline{
-  
+    
     display: inline;
-    margin-top: 0.5%;
-    font-family: 'Satisfy', cursive;
     font-size: 2pc;
 }
 
+.imgrow{
+margin-top: 2%;
+}
+#delicious { 
+    font-family: 'Yellowtail', cursive;
 
+}
+#blog {
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+
+}
 
 header div{
 
@@ -28,6 +44,7 @@ main h1 {
 }
 
 .p1{
+
     margin-top: 0%;
    
 }
@@ -35,6 +52,151 @@ main h1 {
 main img{
     background-repeat: no-repeat;
     width: 100%;
+    position: relative;
+    
+}
+#big{
+    position: relative;
+    top: 10px;
 }
 
+#rep{
+    margin-top: 2.5%;
+    background-image: url(/img/hr-img.png);
+    background-size: 3px 10px ;
+    background-repeat: repeat-x;
+    width: 100%;
+    
+}
+#lasttwo {
+    margin-left: 10px;
+}
+#chocp{
+    position: relative;
+    top: 30px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.3pc;
+    }
 
+#post{
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+    color: rgb(167, 167, 167);
+    font-size: 12px;
+    text-transform: uppercase ;
+    position: relative;
+    top: -20px;
+}
+#figure {
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+    color: rgb(167, 167, 167);
+    font-size: 12px;
+    position: relative;
+    left: 3%;
+    bottom: 60px;
+    text-transform: uppercase;
+}
+.filltext{
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(99, 99, 99);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 3%;
+}
+.seclist{
+    padding: 5px;
+    background-image:  url(/img/list-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+    
+    
+}
+.list{
+    position: relative;
+    right: -100px;
+    top: 10px;
+    display: inline-block;
+    /* list-style-type: square; */
+    color: rgb(126, 124, 124);
+    font-family: 'Patrick Hand', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#column{
+    
+    position: relative;
+    left: 500px;
+    bottom: 28px;
+    display: inline-block;
+    /* list-style-type: square; */
+    color: rgb(126, 124, 124);
+    font-family: 'Patrick Hand', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.checkbox { 
+    border: 1px solid black; 
+    width: .65em; 
+    height: .65em; 
+    margin-right: 4px;
+}
+#author{
+    width: 150px;
+}
+#ven{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    position: relative;
+    right: .5%;
+    top: -90px;
+    
+}
+#lasttext{
+    font-size: 20px;
+    color: rgb(121, 121, 121);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top:-60px ;
+    right: 24.3%;
+}
+#but{
+    border: 0px;
+    padding: 10px 20px 10px 20px; 
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: rgb(160, 87, 87);
+    color: antiquewhite;
+    position: relative;
+    top:-120px;
+    left: 90%;
+    /*position: relative;
+    left: 23%;
+    bottom: 40px;*/
+
+}
+footer p{
+    font-family: 'Abel', sans-serif;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    margin: 0px;
+}
+hr {
+    margin-top: 10%;
+    position: relative;
+    top: 5px;
+    border:none;
+    border: 1px solid #d7d7d7;
+}
+.hr { 
+    text-align: center;
+}
+.hr img {
+    position: relative;
+    top: -30px;
+    background:white;
+    padding:0 5px;
+}
